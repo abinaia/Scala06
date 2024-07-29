@@ -55,6 +55,7 @@ object Z1{
         list.foreach { case (_, product) =>
             if (product.id == Id){
                 found = true
+                println("Product Found")
                 println (s"Name = ${product.name} ")
                 println (s"Name = ${product.quantity} ")
                 println (s"Name = ${product.price} ")
@@ -77,6 +78,7 @@ object Z1{
             println(s"Product ID: ${product.id}, Name: ${product.name}, Quantity: ${product.quantity}, Price: ${product.price}")
         }
         println()
+
         exist(Inventory_1,102)
     }
 }
